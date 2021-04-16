@@ -9,6 +9,17 @@ header{
   border-bottom: 5px solid rgb(0, 187, 25);
 }
 
+footer{
+  height: 120px;
+  background-color: rgb(149, 240, 184);
+  border-top: 5px solid rgb(0, 187, 25);
+}
+
+.footerText{
+  text-align: center;
+  line-height: 100px;
+}
+
 .mainTitle{
   color: #0076ff;
   margin: 0 auto;
@@ -74,7 +85,7 @@ header{
 }
 
 canvas{
-  transition: width 2s ease, height 2s linear;
+  transition: all .5s ease;
 
 }
 

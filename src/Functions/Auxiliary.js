@@ -1,15 +1,18 @@
 import {map, ctx} from './Room'
 
+//Get random int in range
 export function GetRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+//Fill rectangle
 export function fill(a){
     ctx.fillRect(a.x, a.y, a.w, a.h);   
 }
 
+//Clear rectangle
 export function clear(a){
     ctx.clearRect(a.x, a.y, a.w, a.h);   
 }
@@ -19,12 +22,16 @@ export function ClearCanvas() {
     ctx.clearRect(0, 0, map.width, map.height);
 }
 
+
+//Check rectangle overlapping
 function overlaps(a, b) {
 	if (a.x1 >= b.x2 || b.x1 >= a.x2) return false;
 	if (a.y1 >= b.y2 || b.y1 >= a.y2) return false;
 	return true;
 }
 
+
+//Generate object w/o overlapping
 export function GenerateWithoutOverlap(w, h, x, y, trials, obstacles) {
     var flag = true;
     while (flag) {

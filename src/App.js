@@ -24,6 +24,10 @@ class App extends Component {
         <button className="controlButton" id="controlBut" onClick={ClearRoom}>Start Cleaning</button>
       </div>       
       <Room />
+
+      <footer>
+        <p className="footerText">© Made by Adri9wa, inspired by Anatolii</p>
+        </footer>
       </div>
     );
   }

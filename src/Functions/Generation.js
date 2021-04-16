@@ -56,7 +56,7 @@ export function GenerateRTC() {
     var map = document.getElementById("map"), ctx = map.getContext("2d"), trials = 0, roomX = map.width, roomY = map.height;
     //--map
        
-    var minW = 25, minH = 25, maxW = 70, maxH = 70;
+    var minW = 40, minH = 40, maxW = 90, maxH = 90;
     RTC.w = GetRandomInt(minW, maxW); RTC.h = GetRandomInt(minH, maxH);
     RTC.x = GetRandomInt(0, roomX-RTC.w); RTC.y = GetRandomInt(0, roomY-RTC.h);
     //--robot
@@ -78,8 +78,8 @@ export function GenerateRTC() {
         ClearCanvas();
         obstacles = [];
     }
-    minW = 25;
-    minH = 25;
+    minW = 50;
+    minH = 50;
     maxW = RTC.w;
     maxH = RTC.h;
     
