@@ -48,8 +48,10 @@ function EnterDockingStation(callback){
             clearInterval(loop1);
             if(RTC.y > Dock.y) loop2 = setInterval(() => {
                 if(RTC.y > Dock.y) moveUp(afterDock);
-                else clearInterval(loop2);
+                else {
+                clearInterval(loop2);
                 callback();
+                }
             }, intervalTime)
             else loop2 = setInterval(() => {
                 if(RTC.y < Dock.y) moveDown(afterDock);
@@ -67,8 +69,10 @@ function EnterDockingStation(callback){
             clearInterval(loop1);
             if(RTC.y > Dock.y) loop2 = setInterval(() => {
                 if(RTC.y > Dock.y) moveUp(afterDock);
-                else clearInterval(loop2);
+                else {
+                clearInterval(loop2);
                 callback();
+                }
             }, intervalTime)
             else loop2 = setInterval(() => {
                 if(RTC.y < Dock.y) moveDown(afterDock);
@@ -144,12 +148,7 @@ function StartCleaning(){
             clearInterval(loop1);
             loop2 = setInterval(() => {
                 if(RTC.y > 0) moveUp(afterDock);
-                else {
-                    if(RTC.x < map.width){
-                        moveRight(afterDock);
-                    }
-                    clearInterval(loop2);
-                }
+                else clearInterval(loop2);
             }, intervalTime)
         }
     }, intervalTime)
