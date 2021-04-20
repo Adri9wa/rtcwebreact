@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/rtcwebreact/static/css/main.384d8d16.chunk.css",
-    "main.js": "/rtcwebreact/static/js/main.96559d28.chunk.js",
-    "main.js.map": "/rtcwebreact/static/js/main.96559d28.chunk.js.map",
+    "main.css": "/rtcwebreact/static/css/main.3aeb205f.chunk.css",
+    "main.js": "/rtcwebreact/static/js/main.fc59b59c.chunk.js",
+    "main.js.map": "/rtcwebreact/static/js/main.fc59b59c.chunk.js.map",
     "runtime-main.js": "/rtcwebreact/static/js/runtime-main.81339753.js",
     "runtime-main.js.map": "/rtcwebreact/static/js/runtime-main.81339753.js.map",
     "static/js/2.5222d741.chunk.js": "/rtcwebreact/static/js/2.5222d741.chunk.js",
     "static/js/2.5222d741.chunk.js.map": "/rtcwebreact/static/js/2.5222d741.chunk.js.map",
     "index.html": "/rtcwebreact/index.html",
-    "static/css/main.384d8d16.chunk.css.map": "/rtcwebreact/static/css/main.384d8d16.chunk.css.map",
+    "static/css/main.3aeb205f.chunk.css.map": "/rtcwebreact/static/css/main.3aeb205f.chunk.css.map",
     "static/js/2.5222d741.chunk.js.LICENSE.txt": "/rtcwebreact/static/js/2.5222d741.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.81339753.js",
     "static/js/2.5222d741.chunk.js",
-    "static/css/main.384d8d16.chunk.css",
-    "static/js/main.96559d28.chunk.js"
+    "static/css/main.3aeb205f.chunk.css",
+    "static/js/main.fc59b59c.chunk.js"
   ]
 }
